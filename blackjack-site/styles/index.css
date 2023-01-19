@@ -1,0 +1,34 @@
+@font-face{
+    font-family: casino;
+    src: url(casino.3d-marquee-regular.ttf);
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    font-weight: bold;
+    color: #593d3b;
+    text-align: center;
+}
+
+h1 {
+    font-family: casino;
+    color: #918880;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #0C222B;
+    width: 150px;
+    background: #918880;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}

@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #403d39;
+    color: #ccc5b9;
+    border-bottom: 8px solid #eb5e28;
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: 10px 10px 5px lightblue;
+    text-shadow: 0 0 3px #FF0000;   
+}
+
+.card:hover,:active{
+    color: #c0b9dd;
+    font-size: 110%;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+    
+}
+
